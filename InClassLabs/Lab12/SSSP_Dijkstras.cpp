@@ -113,7 +113,7 @@ int main() {
   {5, 0, 0, 20, 0, 0},
   };
 
-  vector<int> minSrcNodes; //vector hold 
+  vector<int> minSrcNodes; //vector to hold best source nodes 
   float minAvg = (float)INT_MAX;
 
   for (int i = 0; i < V; i++) {
